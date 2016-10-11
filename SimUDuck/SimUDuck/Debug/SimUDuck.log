@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  SimUDuck.cpp
+SimUDuck.obj : error LNK2019: unresolved external symbol "public: __thiscall Espresso::Espresso(void)" (??0Espresso@@QAE@XZ) referenced in function _main
+SimUDuck.obj : error LNK2019: unresolved external symbol "public: __thiscall HouseBlend::HouseBlend(void)" (??0HouseBlend@@QAE@XZ) referenced in function _main
+SimUDuck.obj : error LNK2019: unresolved external symbol "public: __thiscall Mocha::Mocha(class Beverage const *)" (??0Mocha@@QAE@PBVBeverage@@@Z) referenced in function _main
+SimUDuck.obj : error LNK2019: unresolved external symbol "public: __thiscall Soy::Soy(class Beverage const *)" (??0Soy@@QAE@PBVBeverage@@@Z) referenced in function _main
+SimUDuck.obj : error LNK2019: unresolved external symbol "public: __thiscall Whip::Whip(class Beverage const *)" (??0Whip@@QAE@PBVBeverage@@@Z) referenced in function _main
+D:\Repositories\trainingCpp\SimUDuck\Debug\SimUDuck.exe : fatal error LNK1120: 5 unresolved externals
