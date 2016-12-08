@@ -1,2 +1,4 @@
 create feature2
 -- add index
+
+delete text from master.txt
