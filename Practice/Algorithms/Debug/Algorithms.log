@@ -1,3 +1,9 @@
 ﻿  Algorithms.cpp
-  Algorithms.vcxproj -> C:\Repositories\testingRepo\Practice\Debug\Algorithms.exe
-  Algorithms.vcxproj -> C:\Repositories\testingRepo\Practice\Debug\Algorithms.pdb (Full PDB)
+d:\repositories\testingrepo\practice\algorithms\sortandfined.h(28): warning C4244: '=': conversion from 'double' to 'std::size_t', possible loss of data
+  d:\repositories\testingrepo\practice\algorithms\algorithms.cpp(11): note: see reference to function template instantiation 'int binarySearch<char>(const T *const ,const size_t &,const T &)' being compiled
+          with
+          [
+              T=char
+          ]
+  Algorithms.vcxproj -> D:\Repositories\testingRepo\Practice\Debug\Algorithms.exe
+  Algorithms.vcxproj -> D:\Repositories\testingRepo\Practice\Debug\Algorithms.pdb (Full PDB)

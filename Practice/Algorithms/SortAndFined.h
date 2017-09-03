@@ -21,18 +21,11 @@ int binarySearch(T const * const array, const size_t& size, const T& searchValue
 			if (array[index] == searchValue)
 				return index;
 			
-			size_t nextIndex;
 			if (array[index] < searchValue)
-			{
-				nextIndex = (hightIndex - index) / 2 + lowIndex;
-				lowIndex = index + 1;
-			}
+				lowIndex = index;
 			else
-			{
-				nextIndex = (index - lowIndex) / 2;
-				hightIndex = index - 1;
-			}
-			index = nextIndex;
+				hightIndex = index;
+			index = (hightIndex - lowIndex) / 2 + lowIndex;
 		}
 	}
 	catch (std::exception())
